@@ -1,13 +1,13 @@
 ﻿using Avalonia;
 using System.Reflection;
-using UITest;
+using UITestsForGradeTable;
 using Xunit.Abstractions;
 using Xunit.Sdk;
 
-[assembly: TestFramework("UITest.AvaloniaUiTestFramework", "UITest")]
+[assembly: TestFramework("UITestsForGradeTable.AvaloniaUiTestFramework", "UITestsForGradeTable")]
 [assembly: CollectionBehavior(CollectionBehavior.CollectionPerAssembly, DisableTestParallelization = false, MaxParallelThreads = 1)]
 
-namespace UITest
+namespace UITestsForGradeTable
 {
     public class AvaloniaUiTestFramework : XunitTestFramework
     {

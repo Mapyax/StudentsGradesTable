@@ -6,7 +6,7 @@ using Avalonia.Headless;
 using lab7.Views;
 using lab7;
 
-namespace UITest
+namespace UITestsForGradeTable
 {
     public static class AvaloniaApp
     {

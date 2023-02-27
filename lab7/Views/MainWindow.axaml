@@ -116,7 +116,7 @@
           <DataGridTemplateColumn Width="90">
             <DataGridTemplateColumn.CellTemplate>
               <DataTemplate DataType="model:Student" >
-                <TextBlock Background="{Binding Grades[0].Color}" Text="{Binding Grades[0].Val}"
+                <TextBlock Name="TextBlock" Background="{Binding Grades[0].Color}" Text="{Binding Grades[0].Val}"
                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
               </DataTemplate>
             </DataGridTemplateColumn.CellTemplate>

@@ -1,4 +1,4 @@
-﻿namespace UITest
+﻿namespace UITestsForGradeTable
 {
     internal class FactAttribute : Attribute
     {
