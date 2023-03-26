@@ -2,11 +2,11 @@
 using Avalonia.Threading;
 using Avalonia;
 using Avalonia.ReactiveUI;
+using Student.Views;
+using Student;
 using Avalonia.Headless;
-using lab7.Views;
-using lab7;
 
-namespace UITestsForGradeTable
+namespace UITestsStudents
 {
     public static class AvaloniaApp
     {

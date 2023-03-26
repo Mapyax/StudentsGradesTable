@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using lab7.ViewModels;
-using lab7.Views;
+using Student.ViewModels;
+using Student.Views;
 
-namespace lab7
+namespace Student
 {
     public partial class App : Application
     {
